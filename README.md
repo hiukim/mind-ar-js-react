@@ -3,7 +3,8 @@
 This is an example project of using [MindAR](https://github.com/hiukim/mind-ar-js) in React 
 
 # Screenshot
-![alt text](https://github.com/hiukim/mind-ar-js-react/blob/master/screenshot.png?raw=true)
+|![alt text](https://github.com/hiukim/mind-ar-js-react/blob/master/screenshot.png?raw=true)|
+|-
 
 # It demonstrates:
 
