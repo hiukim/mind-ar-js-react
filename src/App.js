@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import 'mind-ar';
 import './App.css';
+import MindARViewer from './mindar-viewer';
 
 function App() {
+  const [started, setStarted] = useState(false);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Example React component with <a href="https://github.com/hiukim/mind-ar-js" target="_blank">MindAR</a></h1>
+
+      <div>
+	{!started && <button onClick={() => {setStarted(true)}}>Start</button>}
+	{started && <button onClick={() => {setStarted(false)}}>Stop</button>}
+      </div>
+
+      {started && (
+	<div className="container">
+	  <MindARViewer/>
+	  <video></video>
+	</div>
+      )}
     </div>
   );
 }
