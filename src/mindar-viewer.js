@@ -11,7 +11,7 @@ export default () => {
     const sceneEl = sceneRef.current;
     const arSystem = sceneEl.systems["mindar-image-system"];
     sceneEl.addEventListener('renderstart', () => {
-      arSystem.start(); // start AR 
+      arSystem.start(); // start AR start
     });
     return () => {
       arSystem.stop();
