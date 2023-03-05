@@ -9290,7 +9290,7 @@
   dependencies:
     "flatten-vertex-data" "^1.0.0"
 
-"three@>=0.136.0":
+"three@^0.150.1", "three@>=0.136.0":
   "integrity" "sha512-5C1MqKUWaHYo13BX0Q64qcdwImgnnjSOFgBscOzAo8MYCzEtqfQqorEKMcajnA3FHy1yVlIe9AmaMQ0OQracNA=="
   "resolved" "https://registry.npmjs.org/three/-/three-0.150.1.tgz"
   "version" "0.150.1"

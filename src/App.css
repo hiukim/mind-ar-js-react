@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.control-buttons {
+  position: relative;
+  z-index: 1000;
+}
+
 .container {
   margin: 20px auto;
   position: relative;
