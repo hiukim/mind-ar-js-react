@@ -23,3 +23,8 @@ Everything else are created from `create-react-app`, and they are irrelevant.
 > npm install
 > npm run start
 ```
+
+OR for HTTPS (so you can test on mobile devices connected in local network)
+```
+> npm run start-https
+```
