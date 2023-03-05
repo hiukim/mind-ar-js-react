@@ -2,7 +2,12 @@
 
 This is an example project of using [MindAR](https://github.com/hiukim/mind-ar-js) in React 
 
-The react component is inside `src/MindARViewer`. Everything else are created from `create-react-app`, and they are irrelevant. 
+The react components are:
+
+1. `src/mindar-viewer` (AFRAME version), and 
+2. `src/mindar-three-viewer` (ThreeJS version). 
+
+Everything else are created from `create-react-app`, and they are irrelevant. 
 
 # Screenshot
 |![alt text](https://github.com/hiukim/mind-ar-js-react/blob/master/screenshot.png?raw=true)|
