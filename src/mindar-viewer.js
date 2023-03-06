@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import 'aframe';
-import 'mind-ar/dist/mindar-image-aframe.prod.js';
+//import 'aframe';
+//import 'mind-ar/dist/mindar-image-aframe.prod.js';
 
 export default () => {
   const sceneRef = useRef(null);
